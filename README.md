@@ -15,6 +15,7 @@
 - 支持 Android USB有线投屏, 音画同时镜像, 低延时不卡顿 
 - iOS和MacOS里, 使用AirPlay协议, 无需安装软件, 直接镜像投屏
 - Android 安装投屏客户端App, 实现镜像分屏显示
+- 支持 PiP 画中画显示模式
 - 投屏反控, 即Android 接收端反向控制发送端
 - 支持倍速播放, 支持4K视频播放, 可以推送爱奇异/腾讯视频/优酷 等App 的4K内容播放 (依赖于接收端硬件规格)
 - 对协议层和解码层深度优化, 延迟低, 投屏玩赛车游戏无延迟感(120ms)
@@ -31,19 +32,16 @@
 <img src="image/qrcode.png?raw=true" width="200" height="200">
 
 ## 功能展示
-- MacOS 镜像
-![Alt text](image/mac.jpg?raw=true "Title")
+- PiP 画中画显示模式
+![Alt text](image/pip.png?raw=true "Title")
+
+- Music 
+![Alt text](image/music.png?raw=true "Title")
 
 - 支持最多四分屏显示功能, 它的优势在于，可以同时展示4份方案内容在大屏幕上。多台电脑或手机，可以同时将屏幕投屏至电视 
 ![Alt text](image/four.png?raw=true "Title")
 
-- 对竖屏显示做了深度优化, 支持 AirPlay / Miracast / 手机端App 竖屏显示, 延时低, 不损失原始画质
-![Alt text](image/v.png?raw=true "Title")
-
-## 投屏教程
-![Alt text](image/cast.jpg?raw=true "Title")
  
-
 ## 其他问题
 App安装到有些平台, 可能出现镜像卡顿延时， 是因为各芯片公司的codec实现差异， 目前这个app主要在Rockchip / 高通手机 平台调试 .
 在 Rockchip 3288 上面是很流畅的， 可以点击链接看看.  为取得最好效果, 需要针对芯片平台调试优化
